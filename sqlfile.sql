@@ -1,0 +1,1 @@
+SELECT login_date, Count(*) FROM i_user_login_logs GROUP BY login_date;
